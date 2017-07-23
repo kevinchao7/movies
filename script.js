@@ -37,7 +37,7 @@ function doAjax(){
         var data3 = $('<td>');
         var data4 = $('<td>');
         var data5 = $('<td>');
-        var data6 = $('<td>');
+        var data6 = $('<button>');
         var img = $('<img>');
 
         // Setting the inner text of each td in the first row
@@ -46,7 +46,7 @@ function doAjax(){
         data3.text(response.Actors);
         data4.text(response.imdbRating);
         img.attr('src',response.Poster);
-        data6.addClass('glyphicon glyphicon-remove');
+        data6.addClass('btn removeBtn glyphicon glyphicon-remove');
 
         row.append(data1);
         row.append(data2);
