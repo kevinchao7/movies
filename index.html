@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ajax Movies</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="jumbotron">
+        <h1>IMDB Movies & Shows</h1>
+        <div id='table-responsive' class="table-responsive">
+          <table id="table" class="table">
+            <thead>
+              <tr>
+                <th>Movie Name</th>
+                <th>Year</th>
+                <th>Actors</th>
+                <th>IMDB Ratings</th>
+                <th>Image</th>
+              </tr>
+              <tbody id='table-body' class='table-body'>
+              </tbody>
+            </thead>
+          </table>
+        </div>
+        <div id="search" class="search">
+          <input id="movieName" type="movieName" name="moveName" value="" placeholder="Enter a Movie">
+          <button id="getMovie" type="getMovie" name="getMovie">Generate</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script type="text/javascript" src="script.js"></script>
+</html>

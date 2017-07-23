@@ -1,0 +1,25 @@
+.jumbotron{
+  text-align:center;
+}
+table, th, td{
+  text-align:center;
+}
+img{
+  max-height:100px;
+}
+.table-responsive{
+  max-height:65vh;
+}
+#search{
+  padding-top:25px;
+  padding-bottom:none;
+}
+body
+{
+    position: fixed;
+    overflow-y: hidden;
+    width: 100%;
+}
+.glyphicon-remove{
+  color:red;
+}
