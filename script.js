@@ -7,7 +7,7 @@ btn.on('click',function(){
 })
 
 $(document).on('click','.glyphicon-remove',function(){
-  $(this).parent().remove();
+  $(this).parent().fadeOut(200, function(){ $(this).remove();});
 })
 
 document.onkeypress = function(evt){
